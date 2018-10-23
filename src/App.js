@@ -12,6 +12,8 @@ import Column1 from './components/Column1';
 import Column2 from './components/Column2';
 import ColumnContent from './components/ColumnContent';
 
+import Headline from './components/Headline';
+
 class App extends Component {
     render() {
         return (
@@ -26,13 +28,43 @@ class App extends Component {
                     </HeaderRight>
                 </Header>
 
-                <div>
+                <div style={{ position: 'relative' }}>
                     <Column1>
-                        <ColumnContent>Column</ColumnContent>
+                        <ColumnContent>
+                            <Headline>Contact</Headline>
+                            <br />
+
+                            <Headline>Education</Headline>
+                            <br />
+
+                            <Headline>Coursework</Headline>
+                            <br />
+
+                            <Headline>Languages</Headline>
+                            <br />
+
+                            <Headline>Software</Headline>
+                            <br />
+
+                            <Headline>Hackathons</Headline>
+                            <br />
+
+                            <Headline>Interests</Headline>
+                            <br />
+                        </ColumnContent>
                     </Column1>
 
                     <Column2>
-                        <ColumnContent>Column</ColumnContent>
+                        <ColumnContent>
+                            <Headline>Technical Experience</Headline>
+                            <br />
+
+                            <Headline>Teaching Experience</Headline>
+                            <br />
+
+                            <Headline>Projects and Creations</Headline>
+                            <br />
+                        </ColumnContent>
                     </Column2>
                 </div>
             </Content>

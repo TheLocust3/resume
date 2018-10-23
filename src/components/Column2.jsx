@@ -1,11 +1,13 @@
 import styled from 'react-emotion';
 
 let Column2 = styled('div')`
-    display: inline;
-    position: relative;
+    position: absolute;
+    left: 24%;
 
-    width: 50%;
-    height: 100%;
+    width: 70%;
+
+    margin-top: 2%;
+    padding-top: 2px;
 `;
 
 export default Column2;
