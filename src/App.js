@@ -11,6 +11,7 @@ import HeaderRight from './components/HeaderRight';
 import Column1 from './components/Column1';
 import Column2 from './components/Column2';
 import ColumnContent from './components/ColumnContent';
+import DividingContent from './components/DividingContent';
 
 import Headline from './components/Headline';
 import ContactItem from './components/ContactItem';
@@ -35,12 +36,13 @@ class App extends Component {
                         <ColumnContent>
                             <div>
                                 <Headline>Contact</Headline>
-
-                                <UnstyledLink href="emailto:kinsella.j@husky.neu.edu">
-                                    <ContactItem iconProps={{ icon: 'envelope' }}>kinsella.j@huskey.neu.edu</ContactItem>
+                                <UnstyledLink href="mailto:jake.kinsella@gmail.com">
+                                    <ContactItem iconProps={{ icon: 'envelope' }}>jake.kinsella@gmail.com</ContactItem>
                                 </UnstyledLink>
 
-                                <ContactItem iconProps={{ icon: 'phone' }}>781-315-5580</ContactItem>
+                                <UnstyledLink href="tel:781-315-5580">
+                                    <ContactItem iconProps={{ icon: 'phone' }}>781-315-5580</ContactItem>
+                                </UnstyledLink>
 
                                 <UnstyledLink href="https://github.com/TheLocust3">
                                     <ContactItem iconProps={{ icon: 'github', brand: true }}>TheLocust3</ContactItem>
@@ -50,7 +52,9 @@ class App extends Component {
                                     <ContactItem iconProps={{ icon: 'desktop' }}>jakekinsella.com</ContactItem>
                                 </UnstyledLink>
 
-                                <ContactItem iconProps={{ icon: 'location-arrow' }}>Boston, MA</ContactItem>
+                                <UnstyledLink href="https://www.google.com/maps/place/21+Forsyth+St,+Boston,+MA+02115/@42.3404599,-71.0931809,17z/data=!3m1!4b1!4m5!3m4!1s0x89e37a18cdb8879b:0x7bb8e3318e6fa898!8m2!3d42.3404599!4d-71.0909922">
+                                    <ContactItem iconProps={{ icon: 'location-arrow' }}>21 Forsyth St, Boston, MA 02115</ContactItem>
+                                </UnstyledLink>
 
                                 <ContactItem iconProps={{ icon: 'calendar-alt' }}>Available Jan - June 2019</ContactItem>
                             </div>
@@ -75,11 +79,43 @@ class App extends Component {
                                 <Headline>Dev Skills</Headline>
 
                                 <p>
-                                    <b>Skillful:</b> Git, Java, Ruby, React/Javascript/CSS
-                                    <br />
+                                    <b>Skillful:</b> Java, Ruby, React, Javascript, HTML/CSS
+                                </p>
+                                <p>
                                     <b>Proficient:</b> NodeJS, Python, Lua, AWS
-                                    <br />
+                                </p>
+                                <p>
                                     <b>Familiar:</b> C
+                                </p>
+                            </div>
+                            <br />
+
+                            <div>
+                                <Headline>Clubs</Headline>
+
+                                <p>
+                                    Husky Startup Challenge
+                                    <br />
+                                    <UnstyledLink href="http://www.northeastern.edu/entrepreneurs/">Entrepreneur Club</UnstyledLink>
+                                    <br />
+                                    <UnstyledLink href="https://robockets.weebly.com/">FRC Team 4761 (high school robotics)</UnstyledLink>
+                                    <br />
+                                    Programming Club (high school)
+                                    <br />
+                                    Politics Club (high school)
+                                </p>
+                            </div>
+                            <br />
+
+                            <div>
+                                <Headline>Volunteering</Headline>
+
+                                <p>
+                                    Mentor at the Clubhouse Network
+                                    <br />
+                                    FIRST Lego League Coach for Middle school students
+                                    <br />
+                                    FIRST Robotics Field Reset volunteer
                                 </p>
                             </div>
                             <br />
@@ -88,9 +124,26 @@ class App extends Component {
 
                     <Column2>
                         <ColumnContent>
-                            <div>
+                            <DividingContent>
                                 <Headline>Technical Experience</Headline>
                                 <br />
+                                <br />
+
+                                <div>
+                                    <p>
+                                        <h3>candidateXYZ - CTO and Founder</h3>
+                                        <i>Reading, MA - March 2018 to September 2018</i>
+                                    </p>
+
+                                    <ul>
+                                        <li>
+                                            Worked full time over the summer of my senior year to build out the company and find customers for my
+                                            product
+                                        </li>
+                                        <li>Built a web app designed to remove the artificial barriers of running for local political office</li>
+                                        <li>Automated campaign finance laws and made it easy to register to run for office.</li>
+                                    </ul>
+                                </div>
                                 <br />
 
                                 <div>
@@ -145,29 +198,13 @@ class App extends Component {
                                         </li>
                                     </ul>
                                 </div>
-                            </div>
+                            </DividingContent>
                             <br />
                             <br />
 
                             <div>
                                 <Headline>Projects and Creations</Headline>
                                 <br />
-                                <br />
-
-                                <div>
-                                    <p>
-                                        <h3>candidateXYZ</h3>
-                                    </p>
-
-                                    <ul>
-                                        <li>
-                                            Worked full time over the summer of my senior year to build out the company and find customers for my
-                                            product
-                                        </li>
-                                        <li>Built a web app designed to remove the artificial barriers of running for local political office</li>
-                                        <li>Automated campaign finance laws and made it easy to register to run for office.</li>
-                                    </ul>
-                                </div>
                                 <br />
 
                                 <div>
@@ -198,7 +235,6 @@ class App extends Component {
                                     </ul>
                                 </div>
                             </div>
-                            <br />
                         </ColumnContent>
                     </Column2>
                 </div>

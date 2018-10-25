@@ -16,7 +16,7 @@ class UnstyledLink extends React.Component {
         let { className, children, ...props } = this.props;
 
         return (
-            <a className={`${unstyledLink} ${this.props.className}`} {...props}>
+            <a target="_blank" rel="noopener noreferrer" className={`${unstyledLink} ${this.props.className}`} {...props}>
                 {this.props.children}
             </a>
         );

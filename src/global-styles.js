@@ -1,5 +1,7 @@
 import { injectGlobal } from 'emotion';
 
+import { colors } from './constants';
+
 injectGlobal`
     body {
         margin: 0;
@@ -13,9 +15,9 @@ injectGlobal`
     }
 
     h1 {
-        font-family: 'Times New Roman', Times, serif;
+        font-family: 'Playfair Display', serif;
         font-size: 48px;
-        font-weight: 700;
+        font-weight: 500;
 
         margin: 0;
     }
@@ -44,5 +46,9 @@ injectGlobal`
     ul {
         margin-top: 0;
         margin-bottom: 0;
+    }
+
+    p i {
+        color: ${colors.textBlack}
     }
 `;
