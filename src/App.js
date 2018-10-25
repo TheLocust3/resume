@@ -36,15 +36,19 @@ class App extends Component {
                             <div>
                                 <Headline>Contact</Headline>
 
-                                <ContactItem iconProps={{ icon: 'envelope' }}>
-                                    <UnstyledLink href="emailto:kinsella.j@husky.neu.edu">kinsella.j@huskey.neu.edu</UnstyledLink>
-                                </ContactItem>
+                                <UnstyledLink href="emailto:kinsella.j@husky.neu.edu">
+                                    <ContactItem iconProps={{ icon: 'envelope' }}>kinsella.j@huskey.neu.edu</ContactItem>
+                                </UnstyledLink>
 
                                 <ContactItem iconProps={{ icon: 'phone' }}>781-315-5580</ContactItem>
 
-                                <ContactItem iconProps={{ icon: 'github', brand: true }}>
-                                    <UnstyledLink href="https://github.com/TheLocust3">TheLocust3</UnstyledLink>
-                                </ContactItem>
+                                <UnstyledLink href="https://github.com/TheLocust3">
+                                    <ContactItem iconProps={{ icon: 'github', brand: true }}>TheLocust3</ContactItem>
+                                </UnstyledLink>
+
+                                <UnstyledLink href="http://jakekinsella.com">
+                                    <ContactItem iconProps={{ icon: 'desktop' }}>jakekinsella.com</ContactItem>
+                                </UnstyledLink>
 
                                 <ContactItem iconProps={{ icon: 'location-arrow' }}>Boston, MA</ContactItem>
 
@@ -54,25 +58,29 @@ class App extends Component {
 
                             <div>
                                 <Headline>Education</Headline>
-                                <br />
-                                Northeastern University, Boston, MA
-                                <br />
-                                BS in Computer Science
-                                <br />
-                                First Year Student
-                                <br />
-                                Expected Graduation: 2022
+
+                                <p>
+                                    Northeastern University, Boston, MA
+                                    <br />
+                                    BS in Computer Science
+                                    <br />
+                                    First Year Student
+                                    <br />
+                                    Expected Graduation: 2022
+                                </p>
                             </div>
                             <br />
 
                             <div>
                                 <Headline>Dev Skills</Headline>
-                                <br />
-                                <b>Skillful:</b> Git, Java, Ruby, React/Javascript/CSS
-                                <br />
-                                <b>Proficient:</b> NodeJS, Python, Lua, AWS
-                                <br />
-                                <b>Familiar:</b> C<br />
+
+                                <p>
+                                    <b>Skillful:</b> Git, Java, Ruby, React/Javascript/CSS
+                                    <br />
+                                    <b>Proficient:</b> NodeJS, Python, Lua, AWS
+                                    <br />
+                                    <b>Familiar:</b> C
+                                </p>
                             </div>
                             <br />
                         </ColumnContent>

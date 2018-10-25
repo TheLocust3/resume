@@ -7,12 +7,12 @@ import Middle from './Middle';
 
 let Padding = styled('div')`
     position: relative;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 `;
 
 let textClass = css`
-    margin-left: 30px;
+    margin-left: 40px;
 `;
 
 class ContactItem extends React.Component {
