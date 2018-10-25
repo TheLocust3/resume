@@ -4,8 +4,8 @@ let Column1 = styled('div')`
     position: absolute;
     left: 2%;
 
-    width: 20%;
-    height: 75vh;
+    width: 30%;
+    height: 85vh;
 
     margin-top: 2%;
     padding-top: 2px;

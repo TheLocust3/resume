@@ -9,6 +9,7 @@ injectGlobal`
         position: relative;
 
         font-family: "Trebuchet MS", Arial, sans-serif;
+        font-size: 11px;
     }
 
     h1 {
@@ -20,9 +21,28 @@ injectGlobal`
     }
 
     h2 {
-        font-size: 26px;
+        font-size: 32px;
         font-weight: 500;
 
         margin: 0;
+    }
+
+    h3 {
+        font-size: 24px;
+        font-weight: 500;
+
+        margin: 0;
+    }
+
+    h4 {
+        font-size: 18px;
+        font-weight: 500;
+
+        margin: 0;
+    }
+
+    ul {
+        margin-top: 0;
+        margin-bottom: 0;
     }
 `;
