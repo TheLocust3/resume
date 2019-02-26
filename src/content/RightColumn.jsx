@@ -17,10 +17,11 @@ class RightColumn extends Component {
             <br />
 
             <div>
-              <p>
+              <div>
                 <h3>CandidateXYZ - Founder</h3>
                 <i>Reading, MA - March 2018 to September 2018</i>
-              </p>
+              </div>
+              <br />
 
               <ul>
                 <li>
@@ -39,10 +40,11 @@ class RightColumn extends Component {
             <br />
 
             <div>
-              <p>
+              <div>
                 <h3>Talla - Web Development Intern</h3>
                 <i>Boston, MA - June 2017 to August 2017</i>
-              </p>
+              </div>
+              <br />
 
               <ul>
                 <li>
@@ -63,10 +65,11 @@ class RightColumn extends Component {
             <br />
 
             <div>
-              <p>
+              <div>
                 <h3>Nutonian - QA Engineering Intern</h3>
                 <i>Boston, MA - June 2016 to August 2016</i>
-              </p>
+              </div>
+              <br />
 
               <ul>
                 <li>
@@ -85,10 +88,11 @@ class RightColumn extends Component {
             <br />
 
             <div>
-              <p>
-                <h3>CloudHealth Technologies - Software Engineering Intern</h3>
+              <div>
+                <h3>CloudHealth Tech - Software Engineering Intern</h3>
                 <i>Boston, MA - June 2014 to August 2015 (over two summers)</i>
-              </p>
+              </div>
+              <br />
 
               <ul>
                 <li>Worked as a software engineering intern in a cloud management startup</li>
@@ -109,9 +113,10 @@ class RightColumn extends Component {
             <br />
 
             <div>
-              <p>
+              <div>
                 <h3>Custom CPU Emulator</h3>
-              </p>
+              </div>
+              <br />
 
               <ul>
                 <li>
@@ -127,9 +132,10 @@ class RightColumn extends Component {
             <br />
 
             <div>
-              <p>
+              <div>
                 <h3>Intel 8080 Emulator</h3>
-              </p>
+              </div>
+              <br />
 
               <ul>
                 <li>Developed an Intel 8080 CPU emulator in C</li>

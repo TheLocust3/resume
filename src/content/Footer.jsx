@@ -5,10 +5,10 @@ import { colors } from '../constants';
 
 let FooterContainer = styled('div')`
   position: absolute;
-  bottom: 0;
+  bottom: 10px;
   left: 5vw;
 
-  width: 90vw;
+  width: 90%;
 
   padding-top: 2px;
 

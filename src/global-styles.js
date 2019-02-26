@@ -6,8 +6,8 @@ injectGlobal`
     body {
         margin: 0;
         padding: 0;
-        width: 100%;
-        height: 100%;
+        width: 8.5in;
+        height: 11in;
         position: relative;
 
         font-family: "Trebuchet MS", Arial, sans-serif;
