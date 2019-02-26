@@ -243,11 +243,11 @@ class App extends Component {
 
                   <ul>
                     <li>
-                      Emulates a custom CPU with a limited instruction set, and an assembler for the
-                      emulator
+                      Emulates a custom CPU with a limited instruction set, and built an assembler
+                      for the CPU
                     </li>
                     <li>
-                      Designed a custom CPU and amde hundreds of design designs for the custom stack
+                      Designed a custom CPU and made hundreds of design designs for the custom stack
                     </li>
                     <li>Currently working on higher-level langauges and more functionality</li>
                   </ul>
