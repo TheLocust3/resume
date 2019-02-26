@@ -16,7 +16,7 @@ class App extends Component {
       <Content>
         <Header />
 
-        <div style={{ position: 'relative' }}>
+        <div style={{ height: '94.5%', position: 'relative' }}>
           <LeftColumn />
 
           <RightColumn />
