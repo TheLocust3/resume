@@ -3,7 +3,7 @@ import { injectGlobal } from 'emotion';
 import { colors } from './constants';
 
 injectGlobal`
-    body {
+    body, #root {
         margin: 0;
         padding: 0;
         width: 8.5in;

@@ -7,7 +7,7 @@ let Column1 = styled('div')`
   left: 2%;
 
   width: 30%;
-  height: 85vh;
+  height: 90%;
 
   margin-top: 2%;
   padding-top: 2px;
