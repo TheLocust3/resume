@@ -62,7 +62,7 @@ class App extends Component {
                 </UnstyledLink>
 
                 <ContactItem iconProps={{ icon: 'calendar-alt' }}>
-                  Available Jan - June 2019
+                  Available summer of 2019
                 </ContactItem>
               </div>
               <br />
@@ -86,13 +86,13 @@ class App extends Component {
                 <Headline>Dev Skills</Headline>
 
                 <p>
-                  <b>Skillful:</b> Java, Ruby, React, Javascript, HTML/CSS
+                  <b>Skillful:</b> React, Javascript, HTML/CSS, Java, Ruby
                 </p>
                 <p>
-                  <b>Proficient:</b> NodeJS, Python, Lua, AWS
+                  <b>Proficient:</b> NodeJS, Python Lua, AWS
                 </p>
                 <p>
-                  <b>Familiar:</b> C
+                  <b>Familiar:</b> C, Rust
                 </p>
               </div>
               <br />
@@ -101,6 +101,8 @@ class App extends Component {
                 <Headline>Clubs</Headline>
 
                 <p>
+                  Northeastern Toastmasters
+                  <br />
                   Husky Startup Challenge
                   <br />
                   <UnstyledLink href="http://www.northeastern.edu/entrepreneurs/">
@@ -142,7 +144,7 @@ class App extends Component {
 
                 <div>
                   <p>
-                    <h3>candidateXYZ - CTO and Founder</h3>
+                    <h3>CandidateXYZ - Founder</h3>
                     <i>Reading, MA - March 2018 to September 2018</i>
                   </p>
 
@@ -189,13 +191,14 @@ class App extends Component {
 
                 <div>
                   <p>
-                    <h3>Nutonian - Software QA Intern</h3>
+                    <h3>Nutonian - QA Engineering Intern</h3>
                     <i>Boston, MA - June 2016 to August 2016</i>
                   </p>
 
                   <ul>
                     <li>
-                      Worked as a Software QA Intern at a general purpose machine learning startup
+                      Worked as a QA Engineering Intern at a general purpose machine learning
+                      startup
                     </li>
                     <li>
                       Built their performance testing suite which allowed them to track their API
@@ -235,6 +238,24 @@ class App extends Component {
 
                 <div>
                   <p>
+                    <h3>Custom CPU Emulator</h3>
+                  </p>
+
+                  <ul>
+                    <li>
+                      Emulates a custom CPU with a limited instruction set, and an assembler for the
+                      emulator
+                    </li>
+                    <li>
+                      Designed a custom CPU and amde hundreds of design designs for the custom stack
+                    </li>
+                    <li>Currently working on higher-level langauges and more functionality</li>
+                  </ul>
+                </div>
+                <br />
+
+                <div>
+                  <p>
                     <h3>Intel 8080 Emulator</h3>
                   </p>
 
@@ -242,22 +263,6 @@ class App extends Component {
                     <li>Developed an Intel 8080 CPU emulator in C</li>
                     <li>Emulates the Intel 8080 CPU based on the original Intel specification</li>
                     <li>Fully tested instruction set and CPU interrupts</li>
-                  </ul>
-                </div>
-                <br />
-
-                <div>
-                  <p>
-                    <h3>Gameboy Emulator</h3>
-                  </p>
-
-                  <ul>
-                    <li>Built a Gameboy Classic emulator for my graphing calculator</li>
-                    <li>
-                      Dealt with emulating the Assembly Language operations of a Gameboy, as well as
-                      with clock speed translation on a very limited calculator API
-                    </li>
-                    <li>Did extensive research and learned about emulators and CPU architecture</li>
                   </ul>
                 </div>
               </div>
