@@ -96,9 +96,9 @@ class RightColumn extends Component {
 
               <ul>
                 <li>Worked as a software engineering intern in a cloud management startup</li>
-                <li>Developed an an invoice generator for customers</li>
+                <li>Developed an invoice generator for customers</li>
                 <li>
-                  Involed in all phases of software development from implementation to deployment,
+                  Involved in all phases of software development from implementation to deployment,
                   and participated in an Agile team
                 </li>
               </ul>
@@ -124,7 +124,7 @@ class RightColumn extends Component {
                   the CPU
                 </li>
                 <li>
-                  Designed a custom CPU and made hundreds of design designs for the custom stack
+                  Designed a custom CPU and made hundreds of design decisions for the custom stack
                 </li>
                 <li>Currently working on higher-level langauges and more functionality</li>
               </ul>
