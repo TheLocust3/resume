@@ -64,10 +64,10 @@ class LeftColumn extends Component {
               <b>Skillful:</b> Scala, React, Javascript, HTML/CSS, Java, Ruby
             </p>
             <p>
-              <b>Proficient:</b> NodeJS, Python Lua, AWS Services
+              <b>Proficient:</b> NodeJS, Python, Lua, AWS Services, Data Streaming
             </p>
             <p>
-              <b>Familiar:</b> C, Rust, Elasticsearch, PostgreSQL, Spark
+              <b>Familiar:</b> C, Rust, Elasticsearch, PostgreSQL, Distributed Systems
             </p>
           </div>
           <br />
