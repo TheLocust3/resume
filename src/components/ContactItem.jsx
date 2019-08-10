@@ -2,8 +2,8 @@ import React from 'react';
 import styled, { css } from 'react-emotion';
 import PropTypes from 'prop-types';
 
-import Icon from './Icon';
-import Middle from './Middle';
+import Icon from './common/Icon';
+import Middle from './common/Middle';
 
 let Padding = styled('div')`
   position: relative;

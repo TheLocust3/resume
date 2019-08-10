@@ -46,9 +46,17 @@ injectGlobal`
     ul {
         margin-top: 0;
         margin-bottom: 0;
+        padding-left: 20px;
     }
 
     p i {
         color: ${colors.textBlack}
+    }
+    
+    br {
+        content: "";
+        margin: 1em;
+        display: block;
+        font-size: 24%;
     }
 `;
