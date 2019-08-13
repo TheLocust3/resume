@@ -67,7 +67,7 @@ class LeftColumn extends Component {
               <b>Proficient:</b> NodeJS, Python, Lua, AWS Services, Data Streaming
             </p>
             <p>
-              <b>Familiar:</b> C, Rust, Elasticsearch, PostgreSQL, Distributed Systems
+              <b>Familiar:</b> C, Rust, Kafka, Elasticsearch, PostgreSQL, Distributed Systems
             </p>
           </div>
           <br />
