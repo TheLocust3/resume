@@ -46,8 +46,8 @@ class RightColumn extends Component {
 
                   <ul>
                     <li>
-                      Worked full time over the summer of my senior year to build out the company
-                      and find customers for my product
+                      Worked full time over the summer of my senior year to create the company and
+                      find customers for my product
                     </li>
                     <li>
                       Built a web app designed to remove the artificial barriers of running for
@@ -74,13 +74,13 @@ class RightColumn extends Component {
                     </li>
                     <li>
                       Built out a data annotation platform that would allow them to import Slack
-                      conversations and rate whether Talla's (their chatbot) response was correct or
+                      conversations and rate whether Talla's (the chatbot) response was correct or
                       not and what it should be.
                     </li>
                     <li>
-                      This allowed their data scientists to rapidly improve their product and
-                      allowed them to outsource data annotation to those outside the company,
-                      speeding up the rate at which they could build their product.
+                      This allowed data scientists to rapidly improve the product and gave them the
+                      ability to outsource data annotation to those outside the company, speeding up
+                      the rate at which they could build their product.
                     </li>
                   </ul>
                 </SideMargin>
@@ -99,7 +99,7 @@ class RightColumn extends Component {
                       startup
                     </li>
                     <li>
-                      Built their performance testing suite which allowed them to track their API
+                      Created a performance testing suite which allowed them to track API
                       performance over time
                     </li>
                     <li>
@@ -118,7 +118,7 @@ class RightColumn extends Component {
                   <i>Boston, MA - June 2014 to August 2015 (over two summers)</i>
 
                   <ul>
-                    <li>Worked as a software engineering intern in a cloud management startup</li>
+                    <li>Was a software engineering intern in a cloud management startup</li>
                     <li>Developed an invoice generator for customers</li>
                     <li>
                       Involved in all phases of software development from implementation to
@@ -151,7 +151,7 @@ class RightColumn extends Component {
                       PostgreSQL
                     </li>
                     <li>
-                      Currently under active development, trying to acheive feature parity with
+                      Currently under active development, trying to achieve feature parity with
                       Trello so I can move my personal task management over to it
                     </li>
                   </ul>
