@@ -10,12 +10,12 @@ injectGlobal`
         height: 11in;
         position: relative;
 
-        font-family: "Trebuchet MS", Arial, sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-size: 11px;
     }
 
     h1 {
-        font-family: 'Playfair Display', serif;
+        font-family: 'Roboto Slab', serif;
         font-size: 48px;
         font-weight: 500;
 

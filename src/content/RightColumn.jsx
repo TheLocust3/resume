@@ -18,7 +18,7 @@ class RightColumn extends Component {
 
             <SideMargin margin="2.5%">
               <div>
-                <h3>Threat Stack - Data Engineering Intern</h3>
+                <h4>Threat Stack - Data Engineering Intern</h4>
 
                 <SideMargin margin="2.5%">
                   <i>Boston, MA - May 2019 to August 2019</i>
@@ -39,7 +39,7 @@ class RightColumn extends Component {
               <br />
 
               <div>
-                <h3>CandidateXYZ - Founder</h3>
+                <h4>CandidateXYZ - Founder</h4>
 
                 <SideMargin margin="2.5%">
                   <i>Reading, MA - March 2018 to September 2018</i>
@@ -63,7 +63,7 @@ class RightColumn extends Component {
               <br />
 
               <div>
-                <h3>Talla - Web Development Intern</h3>
+                <h4>Talla - Web Development Intern</h4>
 
                 <SideMargin margin="2.5%">
                   <i>Boston, MA - June 2017 to August 2017</i>
@@ -88,7 +88,7 @@ class RightColumn extends Component {
               <br />
 
               <div>
-                <h3>Nutonian - QA Engineering Intern</h3>
+                <h4>Nutonian - QA Engineering Intern</h4>
 
                 <SideMargin margin="2.5%">
                   <i>Boston, MA - June 2016 to August 2016</i>
@@ -112,7 +112,7 @@ class RightColumn extends Component {
               <br />
 
               <div>
-                <h3>CloudHealth Tech - Software Engineering Intern</h3>
+                <h4>CloudHealth Tech - Software Engineering Intern</h4>
 
                 <SideMargin margin="2.5%">
                   <i>Boston, MA - June 2014 to August 2015 (over two summers)</i>
@@ -137,7 +137,30 @@ class RightColumn extends Component {
 
             <SideMargin margin="5%">
               <div>
-                <h3>Custom CPU Emulator</h3>
+                <h4>Hierarchy</h4>
+                <br />
+
+                <SideMargin margin="2.5%">
+                  <ul>
+                    <li>
+                      A task manager allowing users to map out tasks/goals as trees while giving
+                      users the ability to track those goals in a column/card view (like Trello)
+                    </li>
+                    <li>
+                      Typescript/React webapp with a Scala/Finangle API backed by Neo4j and
+                      PostgreSQL
+                    </li>
+                    <li>
+                      Currently under active development, trying to acheive feature parity with
+                      Trello so I can move my personal task management over to it
+                    </li>
+                  </ul>
+                </SideMargin>
+              </div>
+              <br />
+
+              <div>
+                <h4>Custom CPU Emulator</h4>
                 <br />
 
                 <SideMargin margin="2.5%">
@@ -150,14 +173,13 @@ class RightColumn extends Component {
                       Designed a custom CPU and made hundreds of design decisions for the custom
                       stack
                     </li>
-                    <li>Currently working on higher-level langauges and more functionality</li>
                   </ul>
                 </SideMargin>
               </div>
               <br />
 
               <div>
-                <h3>Intel 8080 Emulator</h3>
+                <h4>Intel 8080 Emulator</h4>
                 <br />
 
                 <SideMargin margin="2.5%">

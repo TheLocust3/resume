@@ -1,7 +1,7 @@
 import styled from 'react-emotion';
 
 let Headline = styled('span')`
-  font-size: 32px;
+  font-size: 22px;
   font-weight: 500;
 
   text-transform: uppercase;

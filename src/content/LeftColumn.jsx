@@ -6,101 +6,110 @@ import ColumnContent from '../components/ColumnContent';
 import Headline from '../components/Headline';
 import ContactItem from '../components/ContactItem';
 import UnstyledLink from '../components/common/UnstyledLink';
+import SideMargin from '../components/common/SideMargin';
 
 class LeftColumn extends Component {
   render() {
     return (
       <Column1>
         <ColumnContent>
-          <div>
+          <p>
             <Headline>Contact</Headline>
-            <UnstyledLink href="mailto:jake.kinsella@gmail.com">
-              <ContactItem iconProps={{ icon: 'envelope' }}>jake.kinsella@gmail.com</ContactItem>
-            </UnstyledLink>
 
-            <UnstyledLink href="tel:781-315-5580">
-              <ContactItem iconProps={{ icon: 'phone' }}>781-315-5580</ContactItem>
-            </UnstyledLink>
+            <SideMargin margin="5%">
+              <UnstyledLink href="mailto:jake.kinsella@gmail.com">
+                <ContactItem iconProps={{ icon: 'envelope' }}>jake.kinsella@gmail.com</ContactItem>
+              </UnstyledLink>
 
-            <UnstyledLink href="https://github.com/TheLocust3">
-              <ContactItem iconProps={{ icon: 'github', brand: true }}>TheLocust3</ContactItem>
-            </UnstyledLink>
+              <UnstyledLink href="tel:781-315-5580">
+                <ContactItem iconProps={{ icon: 'phone' }}>781-315-5580</ContactItem>
+              </UnstyledLink>
 
-            <UnstyledLink href="http://jakekinsella.com">
-              <ContactItem iconProps={{ icon: 'desktop' }}>jakekinsella.com</ContactItem>
-            </UnstyledLink>
+              <UnstyledLink href="https://github.com/TheLocust3">
+                <ContactItem iconProps={{ icon: 'github', brand: true }}>TheLocust3</ContactItem>
+              </UnstyledLink>
 
-            <UnstyledLink href="https://goo.gl/maps/95HT2ksKtEryHBaX7">
-              <ContactItem iconProps={{ icon: 'location-arrow' }}>
-                40 Leon Street, Boston, MA 02115
+              <UnstyledLink href="http://jakekinsella.com">
+                <ContactItem iconProps={{ icon: 'desktop' }}>jakekinsella.com</ContactItem>
+              </UnstyledLink>
+
+              <UnstyledLink href="https://goo.gl/maps/95HT2ksKtEryHBaX7">
+                <ContactItem iconProps={{ icon: 'location-arrow' }}>
+                  40 Leon Street, Boston, MA 02115
+                </ContactItem>
+              </UnstyledLink>
+
+              <ContactItem iconProps={{ icon: 'calendar-alt' }}>
+                Available for Co-op from January - June 2020
               </ContactItem>
-            </UnstyledLink>
-
-            <ContactItem iconProps={{ icon: 'calendar-alt' }}>
-              Available for Co-op starting January 2020
-            </ContactItem>
-          </div>
+            </SideMargin>
+          </p>
           <br />
 
           <div>
             <Headline>Education</Headline>
 
-            <p>
-              Northeastern University, Boston, MA
-              <br />
-              BS in Computer Science
-              <br />
-              First Year Student
-              <br />
-              Expected Graduation: 2022
-            </p>
+            <SideMargin margin="3%">
+              <p>Northeastern University, Boston, MA</p>
+              <p>BS in Computer Science</p>
+              <p>First Year Student</p>
+              <p>Expected Graduation: 2022</p>
+            </SideMargin>
           </div>
           <br />
 
           <div>
             <Headline>Dev Skills</Headline>
 
-            <p>
-              <b>Skillful:</b> Scala, React, Javascript, HTML/CSS, Java, Ruby
-            </p>
-            <p>
-              <b>Proficient:</b> NodeJS, Python, Lua, AWS Services, Data Streaming
-            </p>
-            <p>
-              <b>Familiar:</b> C, Rust, Kafka, Elasticsearch, PostgreSQL, Distributed Systems
-            </p>
+            <SideMargin margin="3%">
+              <p>
+                <b>Skillful:</b> Scala, React, Javascript, HTML/CSS, Java, Ruby
+              </p>
+              <p>
+                <b>Proficient:</b> NodeJS, Python, Lua, AWS Services, Data Streaming
+              </p>
+              <p>
+                <b>Familiar:</b> C, Rust, Kafka, Elasticsearch, PostgreSQL, Distributed Systems
+              </p>
+            </SideMargin>
           </div>
           <br />
 
           <div>
-            <Headline>Clubs</Headline>
+            <Headline>Extracurriculars</Headline>
 
-            <p>
+            <SideMargin margin="3%">
+              <UnstyledLink href="https://www.406ventures.com/about">
+                .406 Ventures Student Fellow
+              </UnstyledLink>
+              <br />
+              <UnstyledLink href="https://web.northeastern.edu/generate/">
+                Studio Engineer at Generate
+              </UnstyledLink>
+              <br />
               Northeastern Toastmasters
               <br />
               Husky Startup Challenge
               <br />
               <UnstyledLink href="http://www.northeastern.edu/entrepreneurs/">
-                Entrepreneur Club
+                Entrepreneurship Club
               </UnstyledLink>
               <br />
               <UnstyledLink href="https://robockets.weebly.com/">
                 FRC Team 4761 (high school robotics)
               </UnstyledLink>
-            </p>
+            </SideMargin>
           </div>
           <br />
 
           <div>
             <Headline>Volunteering</Headline>
 
-            <p>
-              Mentor at the Clubhouse Network
-              <br />
-              FIRST Lego League Coach for Middle school students
-              <br />
-              FIRST Robotics Field Reset volunteer
-            </p>
+            <SideMargin margin="3%">
+              <p>Mentor at the Clubhouse Network</p>
+              <p>FIRST Lego League Coach for Middle school students</p>
+              <p>FIRST Robotics Field Reset volunteer</p>
+            </SideMargin>
           </div>
           <br />
         </ColumnContent>
