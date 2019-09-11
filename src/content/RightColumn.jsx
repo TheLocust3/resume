@@ -46,8 +46,8 @@ class RightColumn extends Component {
 
                   <ul>
                     <li>
-                      Worked full time over the summer of my senior year to create the company and
-                      find customers for my product
+                      Worked full time over the summer of senior year to create the company and find
+                      customers for the product
                     </li>
                     <li>
                       Built a web app designed to remove the artificial barriers of running for
@@ -152,7 +152,7 @@ class RightColumn extends Component {
                     </li>
                     <li>
                       Currently under active development, trying to achieve feature parity with
-                      Trello so I can move my personal task management over to it
+                      Trello to then move personal task management over to it full time
                     </li>
                   </ul>
                 </SideMargin>

@@ -51,9 +51,9 @@ class LeftColumn extends Component {
 
             <SideMargin margin="3%">
               <p>Northeastern University, Boston, MA</p>
-              <p>BS in Computer Science</p>
-              <p>First Year Student</p>
+              <p>Candidate for a Bachelor of Sceience degree in Computer Science</p>
               <p>Expected Graduation: 2022</p>
+              <p>GPA: 3.72/4.0</p>
             </SideMargin>
           </div>
           <br />
