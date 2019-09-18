@@ -24,14 +24,17 @@ class RightColumn extends Component {
                   <i>Boston, MA - May 2019 to August 2019</i>
 
                   <ul>
-                    <li>Worked as a data engineering intern in a cybersecurity company</li>
                     <li>
-                      On team tasked with building out event search using real-time streaming/batch
-                      processing applications processing billions of events, and Elasticsearch
+                      Tasked with working on team building out event search using real-time
+                      streaming applications processing billions of events, and Elasticsearch.
                     </li>
                     <li>
-                      Was given the responsibilities of a full software developer, dealt with highly
-                      distributed systems and a microservice architecture
+                      Obtained the responsibilities of a full software developer, dealt with highly
+                      distributed systems and a microservice architecture.
+                    </li>
+                    <li>
+                      Programmed streaming jobs and libraries used on hundreds of machines
+                      processing mission critical, real time data.
                     </li>
                   </ul>
                 </SideMargin>
@@ -47,11 +50,11 @@ class RightColumn extends Component {
                   <ul>
                     <li>
                       Worked full time over the summer of senior year to create the company and find
-                      customers for the product
+                      customers for the product.
                     </li>
                     <li>
                       Built a web app designed to remove the artificial barriers of running for
-                      local political office
+                      local political office.
                     </li>
                     <li>
                       Automated campaign finance laws and made it easy to register to run for
@@ -70,17 +73,14 @@ class RightColumn extends Component {
 
                   <ul>
                     <li>
-                      Worked as a software engineering intern at a chatbot machine learning startup
+                      Created a data annotation platform that would allow the comapany to import
+                      Slack conversations and rate whether the chatbot's response was correct or not
+                      and what it should be.
                     </li>
                     <li>
-                      Built out a data annotation platform that would allow them to import Slack
-                      conversations and rate whether Talla's (the chatbot) response was correct or
-                      not and what it should be.
-                    </li>
-                    <li>
-                      This allowed data scientists to rapidly improve the product and gave them the
-                      ability to outsource data annotation to those outside the company, speeding up
-                      the rate at which they could build their product.
+                      Gave the data scientists the ability to rapidly iterate on the ML models
+                      powering the product and allowed the company to outsource data annotation to
+                      gig-workers.
                     </li>
                   </ul>
                 </SideMargin>
@@ -95,16 +95,16 @@ class RightColumn extends Component {
 
                   <ul>
                     <li>
-                      Worked as a QA Engineering Intern at a general purpose machine learning
-                      startup
+                      Automated performance testing, building a suite of tests to track API
+                      performance over time.
                     </li>
                     <li>
-                      Created a performance testing suite which allowed them to track API
-                      performance over time
+                      Maintained/added fully automated Selenium tests, learning how to develop
+                      strong automated browser tests and testable websites.
                     </li>
                     <li>
-                      Maintained many fully automated Selenium tests, learning how to develop strong
-                      automated browser tests and testable websites.
+                      Learned how to develop testable and verifiable software through a strong QA
+                      team.
                     </li>
                   </ul>
                 </SideMargin>
@@ -118,11 +118,13 @@ class RightColumn extends Component {
                   <i>Boston, MA - June 2014 to August 2015 (over two summers)</i>
 
                   <ul>
-                    <li>Was a software engineering intern in a cloud management startup</li>
-                    <li>Developed an invoice generator for customers</li>
+                    <li>
+                      Developed an invoice generator for customers that could be called through a
+                      Ruby on Rails API call.
+                    </li>
                     <li>
                       Involved in all phases of software development from implementation to
-                      deployment, and participated in an Agile team
+                      deployment, and participated in an Agile team.
                     </li>
                   </ul>
                 </SideMargin>

@@ -24,7 +24,7 @@ class Header extends Component {
         </HeaderLeft>
 
         <HeaderRight>
-          <h2>Software Developer</h2>
+          <h3>Software Developer</h3>
         </HeaderRight>
       </HeaderContainer>
     );

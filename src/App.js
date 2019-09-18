@@ -8,8 +8,6 @@ import Header from './content/Header';
 import LeftColumn from './content/LeftColumn';
 import RightColumn from './content/RightColumn';
 
-import Footer from './content/Footer';
-
 class App extends Component {
   render() {
     return (
@@ -21,8 +19,6 @@ class App extends Component {
 
           <RightColumn />
         </div>
-
-        <Footer />
       </Content>
     );
   }
