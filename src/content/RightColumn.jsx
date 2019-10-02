@@ -25,16 +25,16 @@ class RightColumn extends Component {
 
                   <ul>
                     <li>
-                      Tasked with working on team building out event search using real-time
-                      streaming applications processing billions of events, and Elasticsearch.
+                      Redesigned event search feature using real-time streaming applications
+                      processing billions of events, and Elasticsearch with team.
                     </li>
                     <li>
-                      Obtained the responsibilities of a full software developer, dealt with highly
-                      distributed systems and a microservice architecture.
+                      Refactored critical model library impacting many streaming jobs and worked to
+                      rebuild + optimize those jobs.
                     </li>
                     <li>
-                      Programmed streaming jobs and libraries used on hundreds of machines
-                      processing mission critical, real time data.
+                      Took on the responsibilities of a full software developer, leading production
+                      deployments and playing critical roles in production incidents.
                     </li>
                   </ul>
                 </SideMargin>
@@ -49,11 +49,11 @@ class RightColumn extends Component {
 
                   <ul>
                     <li>
-                      Worked full time over the summer of senior year to create the company and find
-                      customers for the product.
+                      Founded candidateXYZ to allow municipal candidates to automate all of the
+                      legal + administrative of running a campaign.
                     </li>
                     <li>
-                      Built a web app designed to remove the artificial barriers of running for
+                      Built a web app designed to remove the bureaucratic barriers of running for
                       local political office.
                     </li>
                     <li>
@@ -73,15 +73,15 @@ class RightColumn extends Component {
 
                   <ul>
                     <li>
-                      Created a data annotation platform that would allow the comapany to import
-                      Slack conversations and rate whether the chatbot's response was correct or not
-                      and what it should be.
+                      Created a data annotation platform that would allow Talla to import Slack
+                      conversations and rate whether the chatbot's response was correct or not and
+                      what it should be.
                     </li>
                     <li>
-                      Gave the data scientists the ability to rapidly iterate on the ML models
-                      powering the product and allowed the company to outsource data annotation to
-                      gig-workers.
+                      Facilitated data analysts' ability to rapidly iterate on the ML models
+                      powering the product.
                     </li>
+                    <li>Allowed the company to outsource data annotation to gig-workers.</li>
                   </ul>
                 </SideMargin>
               </div>
@@ -95,16 +95,12 @@ class RightColumn extends Component {
 
                   <ul>
                     <li>
-                      Automated performance testing, building a suite of tests to track API
-                      performance over time.
+                      Automated performance testing, built a suite of tests to track API
+                      performance.
                     </li>
                     <li>
-                      Maintained/added fully automated Selenium tests, learning how to develop
-                      strong automated browser tests and testable websites.
-                    </li>
-                    <li>
-                      Learned how to develop testable and verifiable software through a strong QA
-                      team.
+                      Maintained/upgraded fully automated Selenium tests, and developed strong
+                      automated browser tests and testable websites.
                     </li>
                   </ul>
                 </SideMargin>
@@ -119,11 +115,11 @@ class RightColumn extends Component {
 
                   <ul>
                     <li>
-                      Developed an invoice generator for customers that could be called through a
-                      Ruby on Rails API call.
+                      Developed an invoice generator for customers integrated with a Ruby on Rails
+                      endpoint.
                     </li>
                     <li>
-                      Involved in all phases of software development from implementation to
+                      Contributed to all phases of software development from implementation to
                       deployment, and participated in an Agile team.
                     </li>
                   </ul>
@@ -145,16 +141,13 @@ class RightColumn extends Component {
                 <SideMargin margin="2.5%">
                   <ul>
                     <li>
-                      A task manager allowing users to map out tasks/goals as trees while giving
-                      users the ability to track those goals in a column/card view (like Trello)
+                      Developed a task manager allowing users to map out tasks/goals as trees while
+                      giving users the ability to track those goals in a column/card view (such as
+                      Trello)
                     </li>
                     <li>
-                      Typescript/React webapp with a Scala/Finangle API backed by Neo4j and
-                      PostgreSQL
-                    </li>
-                    <li>
-                      Currently under active development, trying to achieve feature parity with
-                      Trello to then move personal task management over to it full time
+                      Built a webapp in Typescript/React with a Scala/Finangle API backed by Neo4j
+                      and PostgreSQL
                     </li>
                   </ul>
                 </SideMargin>
@@ -175,20 +168,6 @@ class RightColumn extends Component {
                       Designed a custom CPU and made hundreds of design decisions for the custom
                       stack
                     </li>
-                  </ul>
-                </SideMargin>
-              </div>
-              <br />
-
-              <div>
-                <h4>Intel 8080 Emulator</h4>
-                <br />
-
-                <SideMargin margin="2.5%">
-                  <ul>
-                    <li>Developed an Intel 8080 CPU emulator in C</li>
-                    <li>Emulates the Intel 8080 CPU based on the original Intel specification</li>
-                    <li>Fully tested instruction set and CPU interrupts</li>
                   </ul>
                 </SideMargin>
               </div>

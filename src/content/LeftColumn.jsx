@@ -51,8 +51,8 @@ class LeftColumn extends Component {
 
             <SideMargin margin="3%">
               <p>Northeastern University, Boston, MA</p>
-              <p>Candidate for a Bachelor of Sceience degree in Computer Science</p>
-              <p>Expected Graduation: 2022</p>
+              <p>Khoury College of Computer Science</p>
+              <p>Candidate for a Bachelor of Sceience degree in Computer Science (2022)</p>
               <p>GPA: 3.72/4.0</p>
             </SideMargin>
           </div>
@@ -63,13 +63,13 @@ class LeftColumn extends Component {
 
             <SideMargin margin="3%">
               <p>
-                <b>Skillful:</b> Scala, React, Javascript, HTML/CSS, Java, Ruby
+                <b>Proficient:</b> Scala, React, Javascript, HTML/CSS, Java, Ruby
               </p>
               <p>
-                <b>Proficient:</b> NodeJS, Python, Lua, AWS Services, Data Streaming
+                <b>Familiar:</b> NodeJS, Python, Lua, AWS Services, Data Streaming
               </p>
               <p>
-                <b>Familiar:</b> C, Rust, Kafka, Elasticsearch, PostgreSQL, Distributed Systems
+                <b>Other:</b> C, Rust, Kafka, Elasticsearch, PostgreSQL, Distributed Systems
               </p>
             </SideMargin>
           </div>

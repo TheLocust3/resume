@@ -11,7 +11,7 @@ injectGlobal`
         position: relative;
 
         font-family: 'Roboto', sans-serif;
-        font-size: 11px;
+        font-size: 12px;
     }
 
     h1 {
